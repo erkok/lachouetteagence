@@ -27,7 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.section {
+section {
     scroll-behavior: smooth;
 }
 
@@ -36,7 +36,6 @@ section div{
     align-items: center;
     justify-content: center;
     height: 100%;
-    font-size: 8vw;
   }
 
 .bloc {
