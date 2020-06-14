@@ -36,6 +36,13 @@ section {
     scroll-behavior: smooth;
 }
 
+section div{
+   /*  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; */
+  }
+
 .bloc {
     width: 100%;
     clear: both;
