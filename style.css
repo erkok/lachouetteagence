@@ -45,7 +45,7 @@ section div{
     width: 100%
   }
   
-  .sticky + .content {
+  .sticky + section {
     padding-top: 102px;
   }
 
