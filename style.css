@@ -1,8 +1,4 @@
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -33,7 +29,7 @@ a:hover {
 }
 
 section {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 section div{
