@@ -42,7 +42,7 @@ section div{
   .sticky {
     position: fixed !important;
     top: 0;
-    width: 100%
+    width: 100%;
     z-index: 1;
   }
   
