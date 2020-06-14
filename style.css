@@ -39,6 +39,16 @@ section div{
     height: 100%; */
   }
 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
 .bloc {
     width: 100%;
     clear: both;
