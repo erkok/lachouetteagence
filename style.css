@@ -40,13 +40,14 @@ section div{
   }
 
   .sticky {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     width: 100%
+    z-index: 1;
   }
   
   .sticky + section {
-    padding-top: 102px;
+    padding-top: 92px;
   }
 
 .bloc {
