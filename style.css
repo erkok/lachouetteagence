@@ -851,6 +851,13 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.toplink {
+    position: absolute;
+    right: 20px;
+    bottom: 130px;
+    z-index: 1;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
