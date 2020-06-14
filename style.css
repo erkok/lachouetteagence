@@ -320,7 +320,7 @@ section div{
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 0px 15px 3px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
