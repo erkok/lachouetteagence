@@ -105,8 +105,8 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+.texture-dot::before {
+    background: url("img/texture-dot.png");
 }
 
 .b-parallax {
