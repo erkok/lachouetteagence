@@ -713,7 +713,7 @@ p {
     font-weight: 700;
 }
 
-.social {
+.socials {
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -889,6 +889,11 @@ p.lightbox-caption {
     margin-top: 20px;
 }
 
+.copyright p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
 footer .container {
     padding: 50px 0 5px;
 }
@@ -897,7 +902,12 @@ footer .container {
     padding-bottom: 20px;
 }
 
-
+.social {
+    min-width: 50px;
+    margin: 0;
+    float: right;
+    height: 28px;
+}
 
 
 @media (max-width: 1024px) {
