@@ -863,6 +863,12 @@ h4 {
     color: #1e1e1e;
 }
 
+.portfolio_header {
+    font-size: 22px;
+    padding: 20px 0 40px;
+    color: #1e1e1e;
+}
+
 .testimonial {
     font-size: 20px;
     font-size: 2rem;
