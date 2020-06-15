@@ -858,6 +858,14 @@ h4 {
     z-index: 1;
 }
 
+.services_header {
+    font-size: 22px;
+    padding: 20px 0 40px;
+    color: #1e1e1e;
+}
+
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
