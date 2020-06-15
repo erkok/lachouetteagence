@@ -715,7 +715,7 @@ p {
 
 .socials {
     max-width: 400px;
-    margin-top: -5px;
+    margin-top: -7px;
     float: right;
 }
 
@@ -848,7 +848,7 @@ h4 {
 }
 
 .toplink .icon-md {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 .services_header {
@@ -913,6 +913,19 @@ footer .container {
     height: 28px;
     display: inline-block;
     font-size: 25px;
+}
+
+.social .icon-md {
+    font-size: 25px !important;
+}
+
+.footer_links li {
+    display: block;
+}
+
+.footer_links ul {
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
 
