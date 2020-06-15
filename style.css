@@ -938,6 +938,10 @@ footer .container {
     padding-top: 20px;
 }
 
+#bloc-5-cta .container {
+    position: relative;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
