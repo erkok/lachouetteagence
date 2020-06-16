@@ -40,7 +40,7 @@
  
 <!-- Analytics END -->    
 </head>
-<body id="bloc-body">
+<body class="item" id="bloc-body">
 <!-- Principal conteneur -->
 <div class="page-container">
     
@@ -59,19 +59,19 @@
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
-					<li>
+					<li class="menu-item">
 						<a href="#bloc-body">Accueil</a>
 					</li>
-					<li>
+					<li class="menu-item">
 						<a href="#bloc-2-services">Services</a>
 					</li>
-					<li>
+					<li class="menu-item">
 						<a href="#bloc-3-what-i-do">A Propos</a>
 					</li>
-					<li>
+					<li class="menu-item">
 						<a href="#bloc-4-portfolio">Portfolio</a>
 					</li>
-					<li>
+					<li class="menu-item">
 						<a href="#bloc-5-cta">Contact</a>
 					</li>
 				</ul>
@@ -103,7 +103,7 @@
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-<section class="bloc bgc-white l-bloc" id="bloc-2-services">
+<section class="bloc bgc-white l-bloc item" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -160,7 +160,7 @@
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<section class="bloc tc-white bg-presentation d-bloc bloc-bg-texture texture-dot b-parallax" id="bloc-3-what-i-do">
+<section class="bloc tc-white bg-presentation d-bloc bloc-bg-texture texture-dot b-parallax item" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -177,7 +177,7 @@
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<section class="bloc bgc-white l-bloc" id="bloc-4-portfolio">
+<section class="bloc bgc-white l-bloc item" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -229,7 +229,7 @@
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<section class="bloc bg-banniere d-bloc bloc-bg-texture texture-dot" id="bloc-5-cta">
+<section class="bloc bg-banniere d-bloc bloc-bg-texture texture-dot item" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
@@ -374,6 +374,37 @@
 		header.classList.remove("sticky");
 	  }
 	}
+	</script>
+	<script>
+		var navItems = jQuery('.menu-item a');
+var win = jQuery(window);
+var items = jQuery('.item');
+
+
+navItems.click(function(e){
+    var item = jQuery(this);
+    
+    jQuery('.menu-item a.active').removeClass('active');
+    item.addClass('active');
+});
+
+
+
+win.scroll(function(e){
+    jQuery.each(items, function(key, value){
+        var item = jQuery(value);
+        console.log(win.scrollTop(), item.offset().top);
+        if(win.scrollTop() >= item.offset().top){
+            jQuery('.menu-item a.active').removeClass('active');
+            var id = item.attr('id');
+
+            jQuery.each(navItems, function(key, value){
+                var navItem = jQuery(value);
+                if(navItem.attr('href') == '#'+id) navItem.addClass('active');
+            });
+        }
+    });
+});
 	</script>
 </body>
 </html>
