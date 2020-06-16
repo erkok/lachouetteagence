@@ -985,6 +985,10 @@ li a.active {
     font-size: 15px;
 }
 
+.lachouettemap {
+    
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
