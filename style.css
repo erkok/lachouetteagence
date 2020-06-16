@@ -345,6 +345,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 10px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -942,10 +943,22 @@ footer .container {
     position: relative;
 }
 
-li a.active{
-    color: #abc123;
-    font-weight: bold;
-}
+li a.active {
+    background-color: #e57b4fcc;
+    color: #fff !important;
+ }
+ 
+ li a:hover {
+    background-color: #e57b4fcc !important;
+    color: #fff !important;
+ }
+
+ .nav li:last-child {
+    margin-right: 0;
+  }
+
+  
+
 
 @media (max-width: 1024px) {
     .bloc {
