@@ -938,6 +938,10 @@ footer .container {
     position: relative;
 }
 
+li a.active:hover {
+    background: #f66e67;
+}
+
 li a.active {
     background-color: #fc7a5c !important;
     color: #fff !important;
