@@ -15,27 +15,9 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
+	<script src="./js/scripts.js"></script>
 
-	<script>
-		$(document).ready(function(){
-		  $("a").on('click', function(event) {
-		
-			if (this.hash !== "") {
-			  event.preventDefault();
-		
-			  var hash = this.hash;
-		
-			  $('html, body').animate({
-				scrollTop: $(hash).offset().top - 90
-			  }, function(){
-		   
-				window.location.hash = hash;
-			  });
-			} 
-		  });
-		});
-		</script>
-    <title>La chouette agence | Entreprise Web Design à Lyon</title>
+<title>La chouette agence | Entreprise Web Design à Lyon</title>
 <!-- Analytics -->
  
 <!-- Analytics END -->    
@@ -45,7 +27,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc sticky" id="bloc-0">
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
@@ -360,51 +342,6 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
-<script>
-	window.onscroll = function() {myFunction()};
-	
-	var header = document.getElementById("bloc-0");
-	var sticky = header.offsetTop;
-	
-	function myFunction() {
-	  if (window.pageYOffset > sticky) {
-		header.classList.add("sticky");
-	  } else {
-		header.classList.remove("sticky");
-	  }
-	}
-	</script>
-	<script>
-		var navItems = jQuery('.menu-item a');
-var win = jQuery(window);
-var items = jQuery('.item');
 
-
-navItems.click(function(e){
-    var item = jQuery(this);
-    
-    jQuery('.menu-item a.active').removeClass('active');
-    item.addClass('active');
-});
-
-
-
-win.scroll(function(e){
-    jQuery.each(items, function(key, value){
-        var item = jQuery(value);
-        console.log(win.scrollTop(), item.offset().top);
-        if(win.scrollTop() >= item.offset().top){
-            jQuery('.menu-item a.active').removeClass('active');
-            var id = item.attr('id');
-
-            jQuery.each(navItems, function(key, value){
-                var navItem = jQuery(value);
-                if(navItem.attr('href') == '#'+id) navItem.addClass('active');
-            });
-        }
-    });
-});
-	</script>
 </body>
 </html>
