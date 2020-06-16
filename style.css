@@ -801,7 +801,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #e36050!important;
+    background: #e25750!important;
     color: #FFFFFF!important;
 }
 
@@ -818,7 +818,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #e36050!important;
+    color: #e25750!important;
 }
 
 .icon-dark-slate-blue {
@@ -939,12 +939,12 @@ footer .container {
 }
 
 li a.active {
-    background-color: #fc7a5ccc !important;
+    background-color: #fc7a5c !important;
     color: #fff !important;
  }
  
  li a:hover {
-    background-color: #fc7a5ccc !important;
+    background-color: #e25750 !important;
     color: #fff !important;
  }
 
