@@ -939,16 +939,16 @@ footer .container {
     position: relative;
 }
 
-li a.active:hover {
+.nav li a.active:hover {
     background: #f66e67;
 }
 
-li a.active {
+.nav li a.active {
     background-color: #fc7a5c !important;
     color: #fff !important;
  }
  
- li a:hover {
+ .nav li a:hover {
     background-color: #f66e67 !important;
     color: #fff !important;
  }
@@ -988,6 +988,20 @@ li a.active {
 .lachouettemap {
     padding-top: 35px;  
 }
+
+.footer_links h4 {
+    color: #fff!important;
+}
+
+.footer_links a {
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.footer_links a:hover {
+    color: #fff !important;
+    background: none !important;
+}
+
 
 
 @media (max-width: 1024px) {
