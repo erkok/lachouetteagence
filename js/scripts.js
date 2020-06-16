@@ -27,10 +27,9 @@ win.scroll(function(e){
 
 var $root = $('html, body');
 
-$('a[href^="#"]').click(function () {
-    $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top - 90
-    }, 500);
-
-    return false;
+$(document).ready(function($) {
+    $(".scroll").click(function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top-90}, 500);
+    });
 });
