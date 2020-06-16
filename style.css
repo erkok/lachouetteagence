@@ -822,8 +822,9 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #1e1e1e !important;
-    border-color: #1e1e1e !important;
+    color: #fc7a5c !important;
+    border-color: #fc7a5c !important;
+    text-shadow: none !important;
 }
 
 .bg-dots-bg {
