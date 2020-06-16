@@ -944,7 +944,7 @@ footer .container {
 }
 
 li a.active {
-    background-color: #e57b4fcc;
+    background-color: #e57b4fcc !important;
     color: #fff !important;
  }
  

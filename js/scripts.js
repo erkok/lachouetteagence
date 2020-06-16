@@ -24,10 +24,3 @@ win.scroll(function(e){
         }
     });
 });
-
-jQuery(document).ready(function($) {
-    $(".scroll").click(function(event){     
-        event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top - 90}, 500);
-    });
-});
