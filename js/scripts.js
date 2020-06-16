@@ -12,8 +12,8 @@ navItems.click(function(e){
 win.scroll(function(e){
     jQuery.each(items, function(key, value){
         var item = jQuery(value);
-        console.log(win.scrollTop(), item.offset().top);
-        if(win.scrollTop() >= item.offset().top){
+        console.log(win.scrollTop(), item.offset().top - 90);
+        if(win.scrollTop() >= item.offset().top - 90){
             jQuery('.menu-item a.active').removeClass('active');
             var id = item.attr('id');
 
@@ -23,4 +23,14 @@ win.scroll(function(e){
             });
         }
     });
+});
+
+var $root = $('html, body');
+
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 90
+    }, 500);
+
+    return false;
 });
