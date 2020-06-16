@@ -639,7 +639,7 @@ a[data-lightbox]:hover img {
 }
 
 .next-lightbox {
-    padding: 6px 8px 1px 13px;
+    padding: 6px 8px 5px 13px;
     right: 25px;
 }
 
