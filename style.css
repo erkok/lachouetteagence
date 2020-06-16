@@ -283,7 +283,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .row-no-gutters {
@@ -731,7 +731,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -856,7 +856,7 @@ h4 {
 
 .services_header {
     font-size: 24px;
-    padding: 20px 0 80px;
+    padding: 20px 0 70px;
     color: #1a1a1a;
 }
 
@@ -873,15 +873,15 @@ h4 {
 }
 
 #bloc-2-services p.text-center {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #bloc-4-portfolio p.text-center {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 p.lightbox-caption {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .copyright .col-sm-6 {
@@ -931,7 +931,7 @@ footer .container {
 }
 
 #bloc-3-what-i-do p {
-    font-size: 14px;
+    font-size: 15px;
     padding-top: 20px;
 }
 
@@ -959,6 +959,10 @@ li a.active {
 
   #bloc-2-services .bloc-md {
     padding: 80px 0 100px;
+}
+
+#bloc-4-portfolio .bloc-lg {
+    padding: 100px 50px;
 }
 
 
