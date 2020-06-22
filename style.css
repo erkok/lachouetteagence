@@ -1324,6 +1324,18 @@ body {
       height: 150px;
       text-align: center;
     }
+
+    .socials {
+        width: 100%;
+        margin-top: 40px;
+        float: right;
+        height: auto;
+        text-align: center;
+    }
+
+    .socials-icon {
+        display: inline-block;    
+    }
   }
   
   @media (max-width: 400px) {
