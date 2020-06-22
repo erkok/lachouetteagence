@@ -1034,6 +1034,9 @@ body {
       padding-left: 0;
       padding-right: 0;
     }
+    .container {
+        max-width: 950px;
+    }
   }
   
   @media (max-width: 992px) and (min-width: 768px) {
@@ -1257,6 +1260,36 @@ body {
     .blocsapp-device-iphone5 img {
       width: 180px;
       height: 320px;
+    }
+
+    section#services {
+      padding: 0 40px;
+    }
+
+    .testimonial {
+      padding-top: 80px;
+    }
+
+    #bloc-hero h1 {
+      font-size: 30px;
+    }
+
+    .hero-bloc-text {
+      font-size: 25px;
+    }
+
+    .portfolio-row a {
+      padding-bottom: 30px;
+    }
+
+    img.img-responsive.portfolio-thumb {
+      margin: auto;
+    }
+
+    .portfolio-row .projects {
+      padding-bottom: 80px;
+      max-width: 350px;
+      margin: auto;
     }
   }
   
