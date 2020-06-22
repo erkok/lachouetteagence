@@ -946,8 +946,14 @@ body {
     padding-top: 35px;
   }
   
-  .footer_links h4 {
+  .footer_links h3 {
     color: #fff !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .footer_links a {
