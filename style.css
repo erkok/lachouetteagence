@@ -565,13 +565,13 @@ body {
   }
   
   .close-lightbox {
-    color: #FFF;
+    color: #000;
     font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: #fc7a5c;
+    background: #FC9078;
     border: none;
     line-height: 30px;
     padding: 3px 9px;
@@ -581,14 +581,14 @@ body {
   .close-lightbox:hover,
   .next-lightbox:hover,
   .prev-lightbox:hover {
-    background: #f66e67;
+    background: #F9908A;
   }
   
   .next-lightbox,
   .prev-lightbox {
     font-size: 20px;
-    color: #fff !important;
-    background: #fc7a5c;
+    color: #000 !important;
+    background: #FC9078;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -731,7 +731,7 @@ body {
   }
   
   .black-background {
-    background-color: #fc7a5c;
+    background-color: #FC9078;
     padding: 40px 40px 40px 40px;
   }
   
@@ -745,21 +745,25 @@ body {
   }
   
   .bgc-atomic-tangerine {
-    background-color: #fc7a5c;
+    background-color: #FC9078;
   }
   
   .tc-white {
     color: #ffffff !important;
   }
+
+  .tc-black {
+    color: #000000 !important;
+  }
   
   .btn-atomic-tangerine {
-    background: #fc7a5c;
-    color: #FFFFFF !important;
+    background: #FC9078;
+    color: #000000 !important;
   }
   
   .btn-atomic-tangerine:hover {
-    background: #f66e67 !important;
-    color: #FFFFFF !important;
+    background: #F9908A !important;
+    color: #000000 !important;
   }
   
   .ltc-white {
@@ -771,16 +775,16 @@ body {
   }
   
   .ltc-atomic-tangerine {
-    color: #fc7a5c !important;
+    color: #FC9078 !important;
   }
   
   .ltc-atomic-tangerine:hover {
-    color: #f66e67 !important;
+    color: #F9908A !important;
   }
   
   .icon-dark-slate-blue {
-    color: #fc7a5c !important;
-    border-color: #fc7a5c !important;
+    color: #FC9078 !important;
+    border-color: #FC9078 !important;
     text-shadow: none !important;
   }
   
@@ -897,17 +901,17 @@ body {
   }
   
   .nav li a.active:hover {
-    background: #f66e67;
+    background: #F9908A;
   }
   
   .nav li a.active {
-    background-color: #fc7a5c !important;
-    color: #fff !important;
+    background-color: #FC9078 !important;
+    color: #000000 !important;
   }
   
   .nav li a:hover {
-    background-color: #f66e67 !important;
-    color: #fff !important;
+    background-color: #F9908A !important;
+    color: #000000 !important;
   }
   
   .nav li:last-child {
@@ -947,7 +951,7 @@ body {
   }
   
   .footer_links h3 {
-    color: #fff !important;
+    color: #000 !important;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.1;
@@ -957,11 +961,11 @@ body {
   }
   
   .footer_links a {
-    color: rgba(255, 255, 255, .7) !important;
+    color: rgba(0, 0, 0, .7) !important;
   }
   
   .footer_links a:hover {
-    color: #fff !important;
+    color: #000 !important;
     background: none !important;
   }
   
@@ -976,6 +980,19 @@ body {
     font-weight: 700;
     color: #1a1a1a !important;
   }
+
+  .footer_link li {
+    color: rgba(0,0,0,.7);
+}
+
+#bloc-footer i {
+    color: rgba(0,0,0,.7) !important;
+    transition: all 1s;
+}
+
+#bloc-footer i:hover {
+    color: rgba(0,0,0,1) !important;
+} 
   
   /*********************************  Media Queries  **********************************/
   
