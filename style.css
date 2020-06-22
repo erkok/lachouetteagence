@@ -1321,7 +1321,6 @@ body {
     }
 
     .copyright p {
-      height: 150px;
       text-align: center;
     }
 
@@ -1335,6 +1334,7 @@ body {
         float: right;
         height: auto;
         text-align: center;
+        max-width: 100%;
     }
 
     .socials-icon {
