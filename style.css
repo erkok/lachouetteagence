@@ -996,7 +996,7 @@ body {
 }
 
 .lachouettemap iframe {
-    border: none;
+    border: 0 !important;
 }
   
   /*********************************  Media Queries  **********************************/
