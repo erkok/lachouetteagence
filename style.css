@@ -961,11 +961,11 @@ body {
   }
   
   .footer_links a {
-    color: rgba(0, 0, 0, .7) !important;
+    color: #000 !important;
   }
   
   .footer_links a:hover {
-    color: #000 !important;
+    color: rgba(0, 0, 0,.5) !important;
     background: none !important;
   }
   
@@ -978,20 +978,20 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #1a1a1a !important;
+    color: #000 !important;
   }
 
   .footer_link li {
-    color: rgba(0,0,0,.7);
+    color: #000;
 }
 
 #bloc-footer i {
-    color: rgba(0,0,0,.7) !important;
+    color: #000 !important;
     transition: all 1s;
 }
 
 #bloc-footer i:hover {
-    color: rgba(0,0,0,1) !important;
+    color: rgba(0, 0, 0,.5) !important;
 } 
   
   /*********************************  Media Queries  **********************************/
