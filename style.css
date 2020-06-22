@@ -1325,6 +1325,10 @@ body {
       text-align: center;
     }
 
+    .copyright {
+        height: 150px;
+      }
+
     .socials {
         width: 100%;
         margin-top: 40px;
