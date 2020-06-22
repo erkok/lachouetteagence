@@ -34,6 +34,13 @@
   <link rel="stylesheet" type="text/css" href="./css/et-line.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./js/jquery-2.1.0.js"></script>
+  <script>
+  		jQuery.event.special.touchstart = {
+			setup: function( _, ns, handle ){
+				this.addEventListener("touchstart", handle, { passive: true });
+			}
+		};
+  </script>
   <script src="./js/bootstrap.js"></script>
   <script src="./js/blocs.js"></script>
   <script src="./js/jquery.touchSwipe.js" defer></script>
