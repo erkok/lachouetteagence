@@ -1093,6 +1093,9 @@ body {
       padding-left: constant(safe-area-inset-left);
       padding-right: constant(safe-area-inset-right);
     }
+    .contact-column {
+        
+    }
   }
   
   @media (max-width: 767px) {
