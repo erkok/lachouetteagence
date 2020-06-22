@@ -1134,6 +1134,7 @@ body {
 
     .lachouettemap iframe {
         width: 100%;
+        border: none;
     }
 
   }
