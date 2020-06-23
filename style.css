@@ -998,6 +998,11 @@ body {
 .lachouettemap iframe {
     border: 0 !important;
 }
+
+.testimonial_author {
+    color: #545454;
+}
+
   
   /*********************************  Media Queries  **********************************/
   
