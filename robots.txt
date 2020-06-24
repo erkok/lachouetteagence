@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erkok.github.io/lachouetteagence/sitemap.xml
